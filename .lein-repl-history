@@ -1,0 +1,5 @@
+(thread (do (Thread/sleep 10000) (println "Aaaa")))
+(a/thread (do (Thread/sleep 10000) (println "Aaaa")))
+(core.async/thread (do (Thread/sleep 10000) (println "Aaaa")))
+(require core.async)
+(require clojure.core.async)
