@@ -53,7 +53,7 @@
                                     200))))))
 
 (defn random-scr [key n str]
-  (let [maj [0 2 4 5 7 9 11 12 11 9 7 5 4 3 0]]
+  (let [maj [0 2 4 5 7 9 11 12 11 9 7 5 4 2 0]]
     (repeatedly n (fn [] [(+ key (nth maj (int (rand 15))))
                           (+ 100 (* 25 str (int (rand 12))))
                           200]))))
