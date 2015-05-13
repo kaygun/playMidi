@@ -1,41 +1,15 @@
-<<<<<<< HEAD
-# play
+# Clojure Lectures 
 
-FIXME: description
-
-## Installation
-
-Download from http://example.com/FIXME.
+This is an example project I created for my students for them
+to play with learning some aspects of clojure.
 
 ## Usage
 
-FIXME: explanation
+The program requires some MIDI files to parse. I recommend the
+[MIDI files](http://www.bachcentral.com/midiindexcomplete.html) for Bach's Fugues.
+Then run
 
-    $ java -jar play-0.1.0-standalone.jar [args]
+    $ lein run /MIDI/FILE/NAME instrument stretch-factor
 
-## Options
+Read the source: src/play/core.clj
 
-FIXME: listing of options this app accepts.
-
-## Examples
-
-...
-
-### Bugs
-
-...
-
-### Any Other Sections
-### That You Think
-### Might be Useful
-
-## License
-
-Copyright © 2015 FIXME
-
-Distributed under the Eclipse Public License either version 1.0 or (at
-your option) any later version.
-=======
-# Lectures
-Clojure Tutorial
->>>>>>> 5819c2461279ebbdf3d20bcee1cfc194d22d973c
