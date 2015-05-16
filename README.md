@@ -1,7 +1,7 @@
 # Clojure Lectures 
 
 This is an example project I created for my students for them
-to play with learning some aspects of clojure.
+to play with some aspects of clojure.
 
 ## Usage
 
